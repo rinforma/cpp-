@@ -24,17 +24,17 @@ int main(int argc, char const *argv[])
 				break;
 			case 2: 
 				system("cls");// sirve para limpiar pantalla
-				cout<<"snake 1"<<endl;
+				cout<<"snake "<<endl;
 				system("pause");// sirve para cuando se ejecute el codigo
 				break;
 			case 3: 
 				system("cls");// sirve para limpiar pantalla
-				cout<<"startship 2"<<endl;
+				cout<<"startship "<<endl;
 				system("pause");// sirve para cuando se ejecute el codigo
 				break;
 			case 4: 
 				system("cls");// sirve para limpiar pantalla
-				cout<<"salir 3"<<endl;
+				cout<<"salir "<<endl;
 				system("pause");// sirve para cuando se ejecute el codigo
 				break;
 			
