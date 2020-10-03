@@ -43,8 +43,8 @@ int main(int argc, char const *argv[])
 }
     system("cls");
 
-    //starShip();
-     //snake();
+    starShip();
+     snake();
 
     return 0;
 }
