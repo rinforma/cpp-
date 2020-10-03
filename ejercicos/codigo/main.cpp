@@ -1,5 +1,4 @@
 #include <iostream>
-#include <stdlib.h>
 #include "startShip.h"
 #include "snake.h"
 
@@ -19,22 +18,22 @@ int main(int argc, char const *argv[])
 		switch(op){
 			
 			case 1: 
-				system("cls");// sirve para limpiuar pantalla
+				system("cls");// sirve para limpiar pantalla
 				cout<<"menu de juego "<<endl;
 				system("pause");// sirve para cuando se ejecute el codigo
 				break;
 			case 2: 
-				system("cls");// sirve para limpiuar pantalla
+				system("cls");// sirve para limpiar pantalla
 				cout<<"snake 2"<<endl;
 				system("pause");// sirve para cuando se ejecute el codigo
 				break;
 			case 3: 
-				system("cls");// sirve para limpiuar pantalla
+				system("cls");// sirve para limpiar pantalla
 				cout<<"startship 3"<<endl;
 				system("pause");// sirve para cuando se ejecute el codigo
 				break;
 			case 4: 
-				system("cls");// sirve para limpiuar pantalla
+				system("cls");// sirve para limpiar pantalla
 				cout<<"salir 4"<<endl;
 				system("pause");// sirve para cuando se ejecute el codigo
 				break;
@@ -42,12 +41,10 @@ int main(int argc, char const *argv[])
 		}
 	
 }
-
-
     system("cls");
 
-    starShip();
-     snake();
+    //starShip();
+     //snake();
 
     return 0;
 }
