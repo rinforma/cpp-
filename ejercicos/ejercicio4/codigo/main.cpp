@@ -8,10 +8,10 @@ int main(int argc, char const *argv[])
 {
     int op;
 	while(op!=4){
-		cout<<"1.*** menu del juego *** "<<endl;
-		cout<<"2. snake "<<endl;
-		cout<<"3. startship "<<endl;
-		cout<<"4. salir "<<endl;
+		cout<<"*** menu del juego *** "<<endl;
+		cout<<"1. snake "<<endl;
+		cout<<"2. startship "<<endl;
+		cout<<"3. salir "<<endl;
 		cout<<"elija una opcion";
 		cin>>op;
 		
@@ -24,17 +24,17 @@ int main(int argc, char const *argv[])
 				break;
 			case 2: 
 				system("cls");// sirve para limpiar pantalla
-				cout<<"snake 2"<<endl;
+				cout<<"snake 1"<<endl;
 				system("pause");// sirve para cuando se ejecute el codigo
 				break;
 			case 3: 
 				system("cls");// sirve para limpiar pantalla
-				cout<<"startship 3"<<endl;
+				cout<<"startship 2"<<endl;
 				system("pause");// sirve para cuando se ejecute el codigo
 				break;
 			case 4: 
 				system("cls");// sirve para limpiar pantalla
-				cout<<"salir 4"<<endl;
+				cout<<"salir 3"<<endl;
 				system("pause");// sirve para cuando se ejecute el codigo
 				break;
 			
@@ -43,7 +43,7 @@ int main(int argc, char const *argv[])
 }
     system("cls");
 
-    //starShip();
+    starShip();
      snake();
 
     return 0;
