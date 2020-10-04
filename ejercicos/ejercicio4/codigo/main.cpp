@@ -9,10 +9,10 @@ int main(int argc, char const *argv[])
 	// codigo del menu para elegir un juego
     int op; // declaramos la variable que es para ingresar el valor del menu
 	while(op!=4){ // nos sirve para ejecutar una opcion de nuestro menu
-		cout<<"1.*** menu del juego *** "<<endl;
-		cout<<"2. snake "<<endl; 
-		cout<<"3. startship "<<endl;
-		cout<<"4. salir "<<endl;
+		cout<<"1.*** menu del juego *** 1"<<endl;
+		cout<<"2. snake 2"<<endl; 
+		cout<<"3. startship 3"<<endl;
+		cout<<"4. salir 4"<<endl;
 		cout<<"elija una opcion";
 		cin>>op;
 		
@@ -45,7 +45,7 @@ int main(int argc, char const *argv[])
     system("cls");
 
     starShip();
-     snake();
+    // snake();
 
     return 0;
 }
